@@ -1,3 +1,8 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+api_login_check:
+    path: /api/login_check
+app_user_search:
+    path: /users/search
+    controller: App\Controller\UserController::search
